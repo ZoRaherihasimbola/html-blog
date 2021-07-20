@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tourney:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+body{
+    margin: 10px 80px;
+    font-family: 'Lora', serif;
+}
+
+nav h1{
+    font-family: 'Tourney', cursive;
+    color: rgb(1, 84, 238);
+    font-size: 50px;
+}
+
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-family: 'Oswald', sans-serif;
+    
+}
+nav .page{
+    margin-top: 32px;
+    font-size: 40px;
+
+}
+.page a{
+    text-decoration: none;
+    color: #7f7e7f;
+}
+article{
+    margin-top: 30px;
+}
+.article{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+.left img{
+    margin-bottom: 50px;
+    height: 500px;
+    width: 500px;
+}
+.rigth{
+    max-width: 50%;
+    margin-left: 40px;
+}
+.p.date{
+    color: #7f7e7e;
+}
+.p.description{
+    color: #2d2d2d;
+}
+footer{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: #fc4700;
+}
+footer h2{
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+footer .social-media{
+    display: flex;
+}
+footer .social-media .p{
+    font-size: 10px;
+    margin-right: 20px;
+}
+@media screen and (max-width:640px){
+    body{
+        margin : 10px 20px;
+    }
+    nav.page{
+        margin-top: -10px;
+    }
+    .article .article .left img{
+        height: 100%;
+        width: 100%;
+    }
+    .article .article.rigth{
+        margin: 0;
+        max-width: 100%;
+    }
+    footer .social-media{
+        margin-top: -20px;
+    }
+}
+.nba{
+    height: auto;
+    width: auto;
+}
